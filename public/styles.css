@@ -6,4 +6,8 @@ h1{
 background-color: black;
 height: 20px;
 width: 200px;
+};
+
+button{
+    background-color: cadetblue;
 }
