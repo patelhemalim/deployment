@@ -1,20 +1,14 @@
+
+
 h1{
-    color:rgb(199, 26, 32);
-};
+       
+    color: rgb(246, 8, 8);
+        font-size: 7vw;
+        position: absolute;
+        left: 90px;
+        bottom: 400px;
+        text-decoration: underline;
+    };
 
-.box1{
-background-color: black;
-height: 20px;
-width: 200px;
-};
+    
 
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: red;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
