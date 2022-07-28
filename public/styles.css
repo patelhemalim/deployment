@@ -1,16 +1,76 @@
-body{
-    background-image: "https://www.curagroup.com/hubfs/1.jpg"
-    }
 
 h1{
        
-    color: rgb(246, 8, 8);
-        font-size: 7vw;
+    color: rgb(246, 87, 8);
+        font-size: 3vw;
         position: absolute;
         left: 90px;
-        bottom: 400px;
-        text-decoration: underline;
-    };
-
+        bottom: 900px;
+    }
     
+    h2{
+        color: rgb(246, 218, 8);
+        font-size: 5vw;
+        position: absolute;
+        left: 990px;
+        bottom: 1100px;
+
+    }
+    
+form{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(59, 56, 59);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    border-radius: 20px;
+    bottom: 600px;
+    left: 100px;
+
+}
+
+p{
+    color: rgb(219, 246, 14);
+    position: absolute;
+    bottom: 1050px;
+    left: 200px;
+    font-size:3vw;
+    font-style:bold;
+}
+p1{
+    color: rgb(7, 7, 7);
+    position: absolute;
+    bottom: 1250px;
+    left: 1920px;
+    font-size: 1vw;
+    font-style:bold;
+}
+p2{
+    color: rgb(7, 7, 7);
+    position: absolute;
+    bottom: 1250px;
+    left: 2150px;
+    font-size: 1vw;
+    font-style:bold;
+}
+p3{
+    color: rgb(7, 7, 7);
+    position:absolute;
+    bottom: 1250px;
+    left: 2350px;
+    font-size: 1vw;
+    font-style:bold;
+}
+
+.img1{
+    bottom: 650px;
+    position: absolute;
+    left: 400px;
+    mix-blend-mode: multiply;
+   
+}
 
