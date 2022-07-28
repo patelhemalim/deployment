@@ -5,7 +5,7 @@ h1{
         font-size: 3vw;
         position: absolute;
         left: 90px;
-        bottom: 900px;
+        bottom: 800px;
     }
     
     h2{
@@ -28,17 +28,17 @@ form{
     align-items: center;
     margin: 30px;
     border-radius: 20px;
-    bottom: 600px;
-    left: 100px;
+    bottom: 500px;
+    left: 300px;
 
 }
 
 p{
-    color: rgb(219, 246, 14);
+    color: rgb(244, 245, 240);
     position: absolute;
-    bottom: 1050px;
-    left: 200px;
-    font-size:3vw;
+    bottom: 900px;
+    left: 250px;
+    font-size:2vw;
     font-style:bold;
 }
 p1{
@@ -66,11 +66,31 @@ p3{
     font-style:bold;
 }
 
+p4{
+    color: rgb(255, 255, 255);
+    position:absolute;
+    left: 1700px;
+    bottom: 900px;
+    font-size: 1vw;
+    font-style:bold;
+}
+
 .img1{
-    bottom: 650px;
+    bottom: 550px;
     position: absolute;
-    left: 400px;
+    left: 600px;
     mix-blend-mode: multiply;
    
 }
 
+.img2{
+    bottom: 450px;
+    position: absolute;
+    left: 1750px;
+    mix-blend-mode: multiply;
+   
+}
+
+body{
+    background-color: rgb(74, 73, 73);
+}
