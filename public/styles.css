@@ -75,6 +75,15 @@ p4{
     font-style:bold;
 }
 
+p5{
+    color: rgb(6, 6, 6);
+    position:absolute;
+    bottom: 1050px;
+    left: 1850px;
+    font-size: 2vw;
+    font-style:bold;
+}
+
 .img1{
     bottom: 550px;
     position: absolute;
