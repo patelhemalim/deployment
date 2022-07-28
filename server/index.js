@@ -17,9 +17,15 @@ app.get('/',function(req,res){
     res.sendFile(path.join(__dirname, '../public/index.html'))
 })
 app.get("/api/money", (req, res) => {
-    rollbar.info("money was requested", money);
-    res.status(200).send(money);
+    try {
+        rollbar.info("We got money", money);
+        res.status(200).send(money);
+    } catch (err) {
+        console.log(err);
+    }
 });
+
+
     
  app.use(express.static(path.join(__dirname, '../public')))
 
