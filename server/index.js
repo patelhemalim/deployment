@@ -18,10 +18,17 @@ app.get('/',function(req,res){
 })
 app.get("/api/money", (req, res) => {
     try {
-        rollbar.info("We got money", money);
-        res.status(200).send(money);
+        const amount = +req.query.amount
+        if(amount > 0){
+            rollbar.info("We got money", +req.params.amount);
+            res.sendStatus(200).send(amount);
+        } else {
+            console.log("else condition")
+            callsomefunction();
+        }
     } catch (err) {
-        console.log(err);
+        rollbar.error(`We got error ${req.query.amount}`);
+        res.sendStatus(500);
     }
 });
 
