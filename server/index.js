@@ -23,11 +23,12 @@ app.get("/api/money", (req, res) => {
             rollbar.info("We got money", +req.params.amount);
             res.sendStatus(200).send(amount);
         } else {
-            console.log("else condition")
+            rollbar.error(`We got critical ${req.query.amount}`);
+            rollbar.critical(`We got warn error ${req.query.amount}`);
             callsomefunction();
         }
     } catch (err) {
-        rollbar.error(`We got error ${req.query.amount}`);
+        rollbar.warn(`We got error ${req.query.amount}`);
         res.sendStatus(500);
     }
 });
